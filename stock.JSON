@@ -2,7 +2,7 @@
     {"id": 1, "nombre": "Creatina Star", "marca": "Star", "tipo": "creatina", "precio": 2000, "img": "img/creat-star.jpg"},
     {"id": 2, "nombre": "Creatina Gentech", "marca": "Gentech", "tipo": "creatina", "precio": 1800, "img":"img/creat-gentech.jpg"},
     {"id": 3, "nombre": "Aminoacidos Star", "marca": "Star", "tipo": "Aminoacidos", "precio": 1600, "img": "img/amino-star.jpg"},
-    {"id": 4, "nombre": "Aminoacidos Gentech", "marca": "Gentech", "tipo": "Aminoacidos", "precio": 1200, "img": "/img/amino-gentech.jpg"},
+    {"id": 4, "nombre": "Aminoacidos Gentech", "marca": "Gentech", "tipo": "Aminoacidos", "precio": 1200, "img": "img/amino-gentech.jpg"},
     {"id": 5, "nombre": "Proteina Star", "marca": "Star", "tipo": "Proteina", "precio": 2000, "img": "img/prote-star.jpg"},
     {"id": 6, "nombre": "Proteina Gentech", "marca": "Gentech", "tipo": "Proteina", "precio": 1500, "img": "img/prote-gentech.jpg"}
 ]
