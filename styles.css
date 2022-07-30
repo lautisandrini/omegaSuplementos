@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url(../img/fondoNegro.jpg);
+    background-size: cover;
+    background-repeat: repeat; 
+    display: grid;
+
+    grid-template-areas:"header header header"
+                        "productos productos carrito"
+                        "productos productos carrito"
+                        "footer footer footer";
+}
+
+#header-container{
+    background-image: linear-gradient(to right, rgba(236, 13, 13, 0.466), black, rgba(236, 13, 13, 0.466));
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+    grid-area: header;
+}
+
+#logo{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px black solid;
+    text-align: left;
+    margin-left: 0.3rem;
+}
+
+#titulo{
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: -6rem;
+}
+
+main{
+    grid-area: productos;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+}
+
+.subtitulo{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px black;
+    background-image: linear-gradient(to right, rgba(236, 13, 13, 0.466), black, rgba(236, 13, 13, 0.466));
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px 0px 10px 0px ;
+}
+
+#products-container{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 0.3rem rgba(236, 13, 13, 0.692) solid;
+    margin: 1rem;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+}
+
+h3{
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+
+#botonAgregar{
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+}
+
+#carrito{
+    grid-area: carrito;
+    background-image:linear-gradient(to right, rgba(236, 13, 13, 0.466), black, rgba(236, 13, 13, 0.466)) ;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+}
+
+#titulo-carrito{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.432),black,rgba(0, 0, 0, 0.432));
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px 0px 10px 0px ;
+}
+
+#contador-productos{
+    color: white;
+    margin: 1rem;
+    font-size: 20px;
+    text-shadow: 3px 3px black;
+}
+
+.carrito-container{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    margin: 1.5rem;
+}
+
+.productoEnCarrito p{
+    font-size: 20px;
+    margin: 0.1rem;
+}
+
+.precioProducto{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    margin: 1rem;
+    margin-top: 2rem;
+    text-shadow: 3px 3px black;
+}
+
+.btn{
+    margin-bottom: 1.3rem;
+    font-size: 15px;
+}
+
+#vaciarCarrito{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    margin-left: 2rem;
+}
+
+footer{
+    grid-area: footer;
+    background-image: linear-gradient(to right, rgba(236, 13, 13, 0.466), black, rgba(236, 13, 13, 0.466));
+}
+footer h5, h6{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
